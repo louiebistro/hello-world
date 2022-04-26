@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    margin: 0%;
+    background-color: cornsilk;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#landing {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(../images/nashville.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    width: 500px;
+    height: 150px;
+    color:aliceblue;
+    font-size: ;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 1em;
+}
+
+nav li {
+    display: inline;
+    padding-left: 50px;
+    padding-right 50px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    text-shadow: 1px 1px 1px aliceblue;
+}
+
+.destinations {
+    background-color: mediumvioletred;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.destinations h2 {
+    
+}
+
+.destinations ul {
+    list-style-type: none;
+}
+
+.destinations li {
+    font-size: 1.8em;
+    padding: .5em;
+}
+
+.destinations #louie {
+    text-align: center;
+}
+
+.destinations #delphine {
+    text-align: center;
+}
+
+.destinations div {
+    display: inline-block;
+    
+}
